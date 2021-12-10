@@ -2,9 +2,9 @@ import React from 'react'
 
 const Header = () => {
     return (
-        <div className="container h-8 mx-auto p-5">
-      <div className="flex flex-row justify-between">
-        <div className="flex flex-row">
+        <div>
+      <div className="md:flex md:flex-row md:justify-between text-center">
+        <div className="flex flex-row justify-center">
             <div className="bg-gradient-to-r from-gray-300 to-red-300 w-10 h-10 rounded-lg"></div>
             <h1 className="text-3xl text-gray-600 ml-2">Logo</h1>
         </div>
