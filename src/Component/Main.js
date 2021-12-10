@@ -1,4 +1,5 @@
 import React from 'react'
+import ImageOne from '../img/shopp.svg'
 
 const Main = () => {
     return (
@@ -11,7 +12,7 @@ const Main = () => {
                 <button className='w-20 h-10 bg-red-400 rounded-full text-white text-sm hover:bg-red-600'>Now Run</button>
             </div>
             <div className=''>
-            <img src="https://productimages.hepsiburada.net/s/110/375/110000057558460.jpg" 
+            <img src={ImageOne} 
             name='edit-save' 
             className='mb-4'/>
             </div>
