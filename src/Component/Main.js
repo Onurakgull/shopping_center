@@ -3,7 +3,7 @@ import ImageOne from '../img/shopp.svg'
 
 const Main = () => {
     return (
-        <div className='md:flex md:flex-row justify-center mt-12'>
+        <div className='md:flex md:flex-row justify-center mt-12 mb-12'>
             <div className="flex flex-col justify-center mr-7">
                 <h2 className='text-5xl -mt-10 font-serif text-green-800 text-center md:self-start md:text-left'>Merhaba Alışveriş Siteme Hoş Geldiniz!!!</h2>
                 <hr className='text-gray-800'/>
